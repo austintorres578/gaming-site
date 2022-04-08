@@ -1,17 +1,19 @@
 import React from "react"
-import AboutMe from "./AboutMe"
+import FavoriteScreenshots from "./FavoriteScreenshots"
+import HiddenImages from "./HiddenImages"
 import InProgress from "./InProgress"
-import GamingNews from "./GamingNews"
+import YearlyReviews from "./YearlyReviews"
 
 export default function MainSection(){
     return(
         <section className="main-section-container">
-            <div className="main-section">
+            <div id="main-section" className="main-section">
                 <InProgress />
-                <AboutMe />
             </div>
-            <div className="gaming-news-container">
-                <GamingNews />
+            <HiddenImages />
+            <div id="gaming-links-container" className="gaming-links-container">
+                <YearlyReviews />
+                <FavoriteScreenshots />
             </div>
         </section>
     )

@@ -1,4 +1,5 @@
 import React from "react";
+import mobileBackground from "../images/Screenshot (171).png"
 
 export default function InProgress(){
     return(
