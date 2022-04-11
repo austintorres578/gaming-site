@@ -23,10 +23,13 @@ body{
     color: Orange;
 }
 .site-logo{
-    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 45px;
     width: auto;
     margin-right: 10px;
 }
+
 .nav-links{
     border-top: solid 1px white;
     width: 100%;
@@ -101,7 +104,7 @@ body{
     }
 }
 .in-progress-container{
-    height: 525px;
+    height: fit-content;
     background-color: #54678F;
 }
 .in-progress-content{
@@ -131,6 +134,7 @@ body{
 }
 .in-progress-image{
     position: relative;
+    background-color: #727998;
 }
 .in-progress-image img{
     position: absolute;
@@ -182,7 +186,7 @@ body{
 }
 .yearly-reviews-header{
     background-color: #2E303E;
-    color: orange;
+    color: rgb(255, 166, 0);
 }
 .yearly-reviews-header h2{
     margin: 0px;
