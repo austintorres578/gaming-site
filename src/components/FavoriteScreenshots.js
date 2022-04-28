@@ -1,9 +1,9 @@
 import React from "react";
-import DeathsDoor from "../images/DeathsDoor.png"
-import MK11 from "../images/MK11.png"
-import Metro from "../images/Metro.png"
-import Psychonauts from "../images/PsychoNauts.png"
-import TR from "../images/TR.png"
+import DeathsDoor from "../images/DeathsDoor.webp"
+import MK11 from "../images/MK11.webp"
+import Metro from "../images/Metro.webp"
+import Psychonauts from "../images/PsychoNauts.webp"
+import TR from "../images/TR.webp"
 
 
 export default function FavoriteScreenshots(){
@@ -50,7 +50,7 @@ export default function FavoriteScreenshots(){
     };
 
     return(
-        <div className="favorite-screenshots-container">
+        <div id="favorite-screenshots-container" className="favorite-screenshots-container">
             <div className="favorite-screenshots-header">
                 <h2>Top 5 Screenshots</h2>
             </div>
