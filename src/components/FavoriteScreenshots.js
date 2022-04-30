@@ -55,11 +55,11 @@ export default function FavoriteScreenshots(){
                 <h2>Top 5 Screenshots</h2>
             </div>
             <div className="favorite-screenshots">
-                <button onClick={revealHiddenOne}><a href="#hidden-image-one-container"><img src={DeathsDoor}></img></a></button>
-                <button onClick={revealHiddenTwo}><a href="#hidden-image-two-container"><img src={MK11}></img></a></button>
-                <button onClick={revealHiddenThree}><a href="#hidden-image-three-container"><img src={Metro}></img></a></button>
-                <button onClick={revealHiddenFour}><a href="#hidden-image-four-container"><img src={Psychonauts}></img></a></button>
-                <button onClick={revealHiddenFive}><a href="#hidden-image-five-container"><img src={TR}></img></a></button>
+                <button onClick={revealHiddenOne}><img src={DeathsDoor}></img></button>
+                <button onClick={revealHiddenTwo}><img src={MK11}></img></button>
+                <button onClick={revealHiddenThree}><img src={Metro}></img></button>
+                <button onClick={revealHiddenFour}><img src={Psychonauts}></img></button>
+                <button onClick={revealHiddenFive}><img src={TR}></img></button>
             </div>
         </div>
     )

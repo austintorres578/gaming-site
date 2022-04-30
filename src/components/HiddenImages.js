@@ -42,31 +42,31 @@ export default function HiddenImages(){
              <div className="hidden-images">
                 <div id="hidden-image-one-container">
                     <div id="hidden-image-one">
-                        <a href="#favorite-screenshots-container"><button onClick={removeHiddenOne}><img src={xMark}></img></button></a>
+                        <button onClick={removeHiddenOne}><img src={xMark}></img></button>
                         <img src={DeathsDoor}></img>
                     </div>
                 </div>
                 <div id="hidden-image-two-container">
                     <div id="hidden-image-two">
-                        <a href="#favorite-screenshots-container"><button onClick={removeHiddenTwo}><img src={xMark}></img></button></a>
+                        <button onClick={removeHiddenTwo}><img src={xMark}></img></button>
                         <img src={MK11}></img>
                     </div>
                 </div>
                 <div id="hidden-image-three-container">
                     <div id="hidden-image-three">
-                        <a href="#favorite-screenshots-container"><button onClick={removeHiddenThree}><img src={xMark}></img></button></a>
+                        <button onClick={removeHiddenThree}><img src={xMark}></img></button>
                         <img src={Metro}></img>
                     </div>
                 </div>
                 <div id="hidden-image-four-container">
                     <div id="hidden-image-four">
-                        <a href="#favorite-screenshots-container"><button onClick={removeHiddenFour}><img src={xMark}></img></button></a>
+                        <button onClick={removeHiddenFour}><img src={xMark}></img></button>
                         <img src={Psychonauts}></img>
                     </div>
                 </div>
                 <div id="hidden-image-five-container">
                     <div id="hidden-image-five">
-                        <a href="#favorite-screenshots-container"><button onClick={removeHiddenFive}><img src={xMark}></img></button></a>
+                        <button onClick={removeHiddenFive}><img src={xMark}></img></button>
                         <img src={TR}></img>
                     </div>
                 </div>
