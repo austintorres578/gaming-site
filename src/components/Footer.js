@@ -1,6 +1,6 @@
 import React from "react";
-import InstagramLogo from "../images/Instagram_logo_2016.svg.webp"
-import TwitterLogo from "../images/R.png"
+import InstagramLogo from "../images/instagram-logo.webp"
+import TwitterLogo from "../images/twitter-logo.webp"
 
 export default function Footer(){
     return(

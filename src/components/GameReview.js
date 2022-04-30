@@ -4,17 +4,17 @@ import NavBar from "./NavBar";
 import ReviewTemplate from "./ReviewTemplate";
 import YearlyReviews from "./YearlyReviews";
 
-import scoreZero from "../images/potato-points/zero.png"
-import scoreOne from "../images/potato-points/one.png"
-import scoreTwo from "../images/potato-points/two.png"
-import scoreThree from "../images/potato-points/three.png"
-import scoreFour from "../images/potato-points/four.png"
-import scoreFive from "../images/potato-points/five.png"
-import scoreSix from "../images/potato-points/six.png"
-import scoreSeven from "../images/potato-points/seven.png"
-import scoreEight from "../images/potato-points/eight.png"
-import scoreNine from "../images/potato-points/nine.png"
-import scoreTen from "../images/potato-points/ten.png"
+import scoreZero from "../images/potato-points/zero.webp"
+import scoreOne from "../images/potato-points/one.webp"
+import scoreTwo from "../images/potato-points/two.webp"
+import scoreThree from "../images/potato-points/three.webp"
+import scoreFour from "../images/potato-points/four.webp"
+import scoreFive from "../images/potato-points/five.webp"
+import scoreSix from "../images/potato-points/six.webp"
+import scoreSeven from "../images/potato-points/seven.webp"
+import scoreEight from "../images/potato-points/eight.webp"
+import scoreNine from "../images/potato-points/nine.webp"
+import scoreTen from "../images/potato-points/ten.webp"
 
 
 import { selectedReview } from "./ReviewListButtons";
@@ -97,28 +97,32 @@ export default function GameReview(){
       
     
     return(
-        <div className="game-reviews-container">
-            <div>
-                <ReviewTemplate 
-                game={selectedReviewVariable.game}
-                platform={selectedReviewVariable.platform}
-                release={selectedReviewVariable.release}
-                developer={selectedReviewVariable.developer}
-                publisher={selectedReviewVariable.publisher}
-                genre={selectedReviewVariable.genre}
-                description={selectedReviewVariable.description}
-                boxArt={selectedReviewVariable.boxArt}
-                backgroundImage={selectedReviewVariable.backgroundImage}
-                score={gameScoreImage}
-                presentation={getSub(presentationArray)}
-                story={getSub(storyArray)}
-                gameplay={getSub(gameplayArray)}
-                conclusion={selectedReviewVariable.conclusion}
-                />
+        <div>
+            <NavBar />
+            <div className="game-reviews-container">
+                <div>
+                    <ReviewTemplate 
+                    game={selectedReviewVariable.game}
+                    platform={selectedReviewVariable.platform}
+                    release={selectedReviewVariable.release}
+                    developer={selectedReviewVariable.developer}
+                    publisher={selectedReviewVariable.publisher}
+                    genre={selectedReviewVariable.genre}
+                    description={selectedReviewVariable.description}
+                    boxArt={selectedReviewVariable.boxArt}
+                    backgroundImage={selectedReviewVariable.backgroundImage}
+                    score={gameScoreImage}
+                    presentation={getSub(presentationArray)}
+                    story={getSub(storyArray)}
+                    gameplay={getSub(gameplayArray)}
+                    conclusion={selectedReviewVariable.conclusion}
+                    />
+                </div>
+                <div>
+                    <YearlyReviews />     
+                </div> 
             </div>
-            <div>
-                <YearlyReviews />     
-            </div>   
+            <Footer />
         </div>
     )
     

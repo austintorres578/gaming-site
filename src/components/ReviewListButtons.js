@@ -6,17 +6,17 @@ import psvLogo from "../images/console logos/psvita.png"
 import reviewsData from "../reviewsData";
 import { Link } from "react-router-dom";
 
-import scoreZero from "../images/potato-points/zero.png"
-import scoreOne from "../images/potato-points/one.png"
-import scoreTwo from "../images/potato-points/two.png"
-import scoreThree from "../images/potato-points/three.png"
-import scoreFour from "../images/potato-points/four.png"
-import scoreFive from "../images/potato-points/five.png"
-import scoreSix from "../images/potato-points/six.png"
-import scoreSeven from "../images/potato-points/seven.png"
-import scoreEight from "../images/potato-points/eight.png"
-import scoreNine from "../images/potato-points/nine.png"
-import scoreTen from "../images/potato-points/ten.png"
+import scoreZero from "../images/potato-points/zero.webp"
+import scoreOne from "../images/potato-points/one.webp"
+import scoreTwo from "../images/potato-points/two.webp"
+import scoreThree from "../images/potato-points/three.webp"
+import scoreFour from "../images/potato-points/four.webp"
+import scoreFive from "../images/potato-points/five.webp"
+import scoreSix from "../images/potato-points/six.webp"
+import scoreSeven from "../images/potato-points/seven.webp"
+import scoreEight from "../images/potato-points/eight.webp"
+import scoreNine from "../images/potato-points/nine.webp"
+import scoreTen from "../images/potato-points/ten.webp"
 
 let selectedReview ={};
 
