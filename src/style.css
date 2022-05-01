@@ -239,80 +239,27 @@ body{
     height: auto;
     width: 300px;
 }
-
-.hidden-images-container{
-    text-align: center;
-    margin-bottom: 25px;
+.hidden-images-section-container{
+    position: relative;
+    background-color: black;
+    height: 100vh;
     width: 100%;
 }
-.hidden-images div img{
-    height: auto;
-    width: 90vw;
-}
-.hidden-images div button{
-    position: absolute;
-    padding: 5px;
-}
-.hidden-images div button img{
-    height: 15px;
+.hidden-images-section-container button img{
+    height: 25px;
     width: auto;
 }
-#hidden-image-one-container{
-    position: relative;
-    height: 100vh;
-    display: none;
-}
-#hidden-image-one{
+.hidden-image-content{
     position: absolute;
     top: 50%;
     left: 50%;
+    text-align: center;
     transform: translate(-50%, -50%);
 }
-#hidden-image-two-container{
-    position: relative;
-    height: 100vh;
-    display: none;
+.hidden-image-content img{
+    width: 90vw;
+    height: auto;
 }
-#hidden-image-two{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-#hidden-image-three-container{
-    position: relative;
-    height: 100vh;
-    display: none;
-}
-#hidden-image-three{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-#hidden-image-four-container{
-    position: relative;
-    height: 100vh;
-    display: none;
-}
-#hidden-image-four{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-#hidden-image-five-container{
-    position: relative;
-    height: 100vh;
-    display: none;
-}
-#hidden-image-five{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .footer-container{
     display: flex;
     justify-content: center;

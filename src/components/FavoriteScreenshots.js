@@ -4,49 +4,26 @@ import MK11 from "../images/MK11.webp"
 import Metro from "../images/Metro.webp"
 import Psychonauts from "../images/PsychoNauts.webp"
 import TR from "../images/TR.webp"
+import { Link } from "react-router-dom"
 
+let screenshotSelector;
 
 export default function FavoriteScreenshots(){
 
-    let revealHiddenOne = () => {
-        document.getElementById("hidden-image-one-container").style.display="block";
-        document.getElementById("home-nav-bar").style.display="none";
-        document.getElementById("main-section").style.display="none";
-        document.getElementById("gaming-links-container").style.display="none";
-        document.getElementById("footer-container").style.display="none";
-        document.getElementById("body").style.backgroundColor="black";
+    function revealHiddenOne(){
+        screenshotSelector=1;
     };
-    let revealHiddenTwo = () => {
-        document.getElementById("hidden-image-two-container").style.display="block";
-        document.getElementById("home-nav-bar").style.display="none";
-        document.getElementById("main-section").style.display="none";
-        document.getElementById("gaming-links-container").style.display="none";
-        document.getElementById("footer-container").style.display="none";
-        document.getElementById("body").style.backgroundColor="black";
+    function revealHiddenTwo(){
+        screenshotSelector=2;
     };
-    let revealHiddenThree = () => {
-        document.getElementById("hidden-image-three-container").style.display="block";
-        document.getElementById("home-nav-bar").style.display="none";
-        document.getElementById("main-section").style.display="none";
-        document.getElementById("gaming-links-container").style.display="none";
-        document.getElementById("footer-container").style.display="none";
-        document.getElementById("body").style.backgroundColor="black";
+    function revealHiddenThree(){
+        screenshotSelector=3;
     };
-    let revealHiddenFour = () => {
-        document.getElementById("hidden-image-four-container").style.display="block";
-        document.getElementById("home-nav-bar").style.display="none";
-        document.getElementById("main-section").style.display="none";
-        document.getElementById("gaming-links-container").style.display="none";
-        document.getElementById("footer-container").style.display="none";
-        document.getElementById("body").style.backgroundColor="black";
+    function revealHiddenFour(){
+        screenshotSelector=4;
     };
-    let revealHiddenFive = () => {
-        document.getElementById("hidden-image-five-container").style.display="block";
-        document.getElementById("home-nav-bar").style.display="none";
-        document.getElementById("main-section").style.display="none";
-        document.getElementById("gaming-links-container").style.display="none";
-        document.getElementById("footer-container").style.display="none";
-        document.getElementById("body").style.backgroundColor="black";
+    function revealHiddenFive() {
+        screenshotSelector=5;
     };
 
     return(
@@ -55,12 +32,14 @@ export default function FavoriteScreenshots(){
                 <h2>Top 5 Screenshots</h2>
             </div>
             <div className="favorite-screenshots">
-                <button onClick={revealHiddenOne}><a href="#hidden-image-one-container"><img src={DeathsDoor}></img></a></button>
-                <button onClick={revealHiddenTwo}><a href="#hidden-image-two-container"><img src={MK11}></img></a></button>
-                <button onClick={revealHiddenThree}><a href="#hidden-image-three-container"><img src={Metro}></img></a></button>
-                <button onClick={revealHiddenFour}><a href="#hidden-image-four-container"><img src={Psychonauts}></img></a></button>
-                <button onClick={revealHiddenFive}><a href="#hidden-image-five-container"><img src={TR}></img></a></button>
+                <button onClick={revealHiddenOne}><Link to="/favoritescreenshots"><img src={DeathsDoor}></img></Link></button>
+                <button onClick={revealHiddenTwo}><Link to="/favoriteScreenshots"><img src={MK11}></img></Link></button>
+                <button onClick={revealHiddenThree}><Link to="/favoriteScreenshots"><img src={Metro}></img></Link></button>
+                <button onClick={revealHiddenFour}><Link to="/favoriteScreenshots"><img src={Psychonauts}></img></Link></button>
+                <button onClick={revealHiddenFive}><Link to="/favoriteScreenshots"><img src={TR}></img></Link></button>
             </div>
         </div>
     )
 }
+
+export {screenshotSelector}
