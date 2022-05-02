@@ -1,6 +1,7 @@
 import React from "react";
 import PlaceHolderImage from "../images/mario-block.png"
 import reviewsData from "../reviewsData";
+import { useEffect } from "react";
 
 import { Link } from "react-router-dom";
 
@@ -16,7 +17,9 @@ export default function YearlyReviews(){
         localStorage.setItem("recentReview",JSON.stringify(yearlyReviewSelector))
     }
 
-
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     return(
         <div className="yearly-reviews-container">
