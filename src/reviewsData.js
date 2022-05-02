@@ -53,5 +53,32 @@ export default [
             "Level Design":"A majority of the mission runtime is designed around stealth but there are certain flaws in the game that bring down the level design and the game. You'll spend a lot of your time in these missions in office buildings that don't give you much leeway in avoiding detection, so when paired with the hyperaware enemies you'll find yourself back in trial and error gameplay. There will even be moments where enemies will turn on lights or appear out of nowhere resulting in a gunfight unless you memorized the levels. If you find yourself in a gunfight you'll realize the game wasn't designed for it, resulting in sluggish gameplay and many deaths. What makes it worse is the game forces you into gunfights in certain missions and for me it personally caused a lot of my deaths."
         },
         conclusion:"This game has its problems when it comes to its AI that creates problems in the gameplay of this game. The environments are actually very detailed but can be really samey with similar and linear locations, but the game is still without a doubt above average with its amazing stealth when it's working. I really don't know how this game got near perfect scores in the past, but I'm happy it did because later entries in the series definitely refined this game's mechanics. Overall it's still a solid game but you need to be aware that you're gonna be facing a really dated save system and enemies that have the heightened senses of a hawk.",
-    }
+    },
+    {
+        id:2,
+        game:"Sly: Thieves in Time",
+        platform:"PS Vita",
+        release:"Feb 05, 2013",
+        developer:"Sanzaru Games",
+        publisher:"Sony Interactive Entertainment",
+        genre:"Platformer",
+        description:"Play as the reformed Cooper gang and go back in time to multiple different time periods in order to stop whoever is erasing Cooper history.",
+        boxArt:"https://images.pushsquare.com/fcce92c2328e8/sly-cooper-thieves-in-time-cover.cover_large.jpg",
+        backgroundImage:"https://d2ofqe7l47306o.cloudfront.net/games/1280x1024/sly-cooper-thieves-in-time-02.jpg",
+        score:"0",
+        presentation:{
+            "subtitle 1":"text",
+            "subtitle 2":"text",
+        },
+        story:{
+            "subtitle 1":"text",
+            "subtitle 2":"text",
+        },
+        gameplay:{
+            "subtitle 1":"text",
+            "subtitle 2":"text",
+        },
+        conclusion:"text",
+        }
+    
 ];

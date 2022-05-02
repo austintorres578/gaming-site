@@ -7,6 +7,11 @@ body{
     .nav-logo{
         justify-content: center;
     }
+    .home-nav-bar .nav-links ul li{
+        font-size: 18px;
+        padding-bottom: 15px;
+        margin-right: 15px;
+    }
 }
 .home-nav-bar{
     z-index: 1;
@@ -42,6 +47,7 @@ body{
 .nav-links ul li{
     font-size: 20px;
     padding-bottom: 15px;
+    margin-right: 20px;
 }
 .nav-links ul li a{
     color: white;
@@ -49,7 +55,6 @@ body{
 }
 
 .home-link{
-    margin-right: 25px;
     border-bottom: solid 5px orange
 }
 @media(max-width:640px){
@@ -63,17 +68,11 @@ body{
     padding-right: 25px;
 }
 @media(max-width:975px){
-    .in-progress-container .in-progress-content .in-progress-image img{
-        width: 273.516px;
-    }
     .in-progress-container .in-progress-content .in-progress-text{
         font-size: 18px;
     }
 }
 @media(max-width:700px){
-    .in-progress-container .in-progress-content .in-progress-image img{
-        width: 214.906px;;
-    }
     .in-progress-container .in-progress-content .in-progress-text{
         font-size: 16px;
     }
@@ -141,8 +140,8 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: auto;
-    width: 312.586px;
+    height: 80%;
+    width: auto;
 }
 .in-progress-header{
     background-color: #2E303E;
@@ -361,6 +360,20 @@ body{
         padding-right: 10px;
     }
 }
+@media(max-width:650px){
+    .temporary-reviews-list li button{
+        font-size: 18px;
+    }
+    .temporary-reviews-list .review-list-console-logo{
+        height: 20px;
+        width: auto;
+    }
+    .temporary-reviews-list .review-score{
+        height: 15px;
+        margin-left: 10px;
+        width: auto;
+}   
+}
 .temporary-reviews-list{
     list-style: none;
     padding: 0px;
@@ -506,8 +519,8 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: auto;
-    width: 312.586px;
+    height: 80%;
+    width: auto;
 }
 .review-score{
     text-align: center;
