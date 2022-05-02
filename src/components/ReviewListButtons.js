@@ -3,7 +3,6 @@ import xboxLogo from "../images/console logos/og-xbox.png"
 import gamecubeLogo from "../images/console logos/gamecube.png"
 import ps2Logo from "../images/console logos/ps2.png"
 import psvLogo from "../images/console logos/psvita.png"
-import reviewsData from "../reviewsData";
 import { Link } from "react-router-dom";
 
 import scoreZero from "../images/potato-points/zero.webp"
