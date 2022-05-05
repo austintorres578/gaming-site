@@ -29,7 +29,7 @@ export default function FavoriteScreenshots(){
     return(
         <div id="favorite-screenshots-container" className="favorite-screenshots-container">
             <div className="favorite-screenshots-header">
-                <h2>Top 5 Screenshots</h2>
+                <h2>Favorite Screenshots</h2>
             </div>
             <div className="favorite-screenshots">
                 <button onClick={revealHiddenOne}><Link to="/favoritescreenshots"><img src={DeathsDoor}></img></Link></button>

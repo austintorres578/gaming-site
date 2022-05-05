@@ -86,6 +86,13 @@ body{
         background-size: cover;
         position: relative;
     }
+@media(max-width:400px){
+    .in-progress-container .in-progress-content .in-progress-text{
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+}
     .in-progress-container .in-progress-header{
         text-align: center;
     }
@@ -462,6 +469,15 @@ body{
     }
     .review-template-review-area div h2{
         text-align: center;
+    }
+}
+@media(max-width:400px){
+    .review-template-header{
+        text-align: center;
+    }
+    .review-template .review-template-information-container .review-template-information{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
