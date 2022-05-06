@@ -20,6 +20,7 @@ import scoreTen from "../images/potato-points/ten.webp"
 
 export default function Reviews(){
 
+
     const reviewListButtons = reviewsData.map(item =>{
         return(
             <ReviewListButtons 
