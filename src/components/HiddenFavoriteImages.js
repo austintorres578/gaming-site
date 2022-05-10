@@ -1,10 +1,10 @@
 import React from "react";
 
-import favoriteImageOne from "../images/DeathsDoor.webp"
-import favoriteImageTwo from "../images/MK11.webp"
-import favoriteImageThree from "../images/Metro.webp"
-import favoriteImageFour from "../images/PsychoNauts.webp"
-import favoriteImageFive from "../images/TR.webp"
+import imageOne from "../images/Splinter-Cell-1.webp"
+import ImageTwo from "../images/MK11.webp"
+import ImageThree from "../images/Metro.webp"
+import ImageFour from "../images/PsychoNauts.webp"
+import ImageFive from "../images/TR.webp"
 import xIcon from "../images/x.png"
 
 import { Link } from "react-router-dom";
@@ -19,15 +19,15 @@ export default function HiddenFavoriteImages(){
 
     function check(){
         if(screenshotSelectorVariable===1){
-            hiddenImageVariable=favoriteImageOne
+            hiddenImageVariable=imageOne
         }else if(screenshotSelectorVariable===2){
-            hiddenImageVariable=favoriteImageTwo
+            hiddenImageVariable=ImageTwo
         }else if(screenshotSelectorVariable===3){
-            hiddenImageVariable=favoriteImageThree
+            hiddenImageVariable=ImageThree
         }else if(screenshotSelectorVariable===4){
-            hiddenImageVariable=favoriteImageFour
+            hiddenImageVariable=ImageFour
         }else if(screenshotSelectorVariable===5){
-            hiddenImageVariable=favoriteImageFive
+            hiddenImageVariable=ImageFive
         }
     };
 

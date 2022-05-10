@@ -8,16 +8,16 @@ export default function InProgress(){
             </div>
             <div className="in-progress-content">
                 <div className="in-progress-text">
-                    <h2>Sly Cooper: Thieves in Time</h2>
+                    <h2>Sly Cooper and the Thievius Raccoonus {"(Sly Collection)"}</h2>
                     <p><strong>Platform:</strong> PS Vita</p>
-                    <p><strong>Release:</strong> Feb 05, 2013</p>
+                    <p><strong>Release:</strong> May 27, 2014</p>
                     <p><strong>Developer:</strong> Sanzaru Games</p>
                     <p><strong>Publisher:</strong> Sony Interactive Entertainment</p>
                     <p><strong>Genre:</strong> Platformer</p>
-                    <p><strong>Description:</strong> Play as the reformed Cooper gang and go back in time to multiple different time periods in order to stop whoever is erasing Cooper history. </p>
+                    <p><strong>Description:</strong> Play as Sly in the newly formed Cooper gang and rebuild the Thievius Raccoonus to avenge the murder of your parents. </p>
                 </div>
                 <div className="in-progress-image">
-                    <img src="https://images.pushsquare.com/fcce92c2328e8/sly-cooper-thieves-in-time-cover.cover_large.jpg"></img>
+                    <img src="https://th.bing.com/th/id/R.a019c81b0d676d14c5b4611118759e50?rik=GRoe7EywFEpFoA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-ZhzSEpIl7rA%2fUAun6JhmqQI%2fAAAAAAAAAvE%2fuSoipIS9S8k%2fs1600%2fssssss.jpg&ehk=F6ZSXDbsAmHx8rZ3zn32WGuJRL2rZPf8uQJVSpJ6lf0%3d&risl=&pid=ImgRaw&r=0"></img>
                 </div>
             </div>
         </div>

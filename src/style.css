@@ -79,7 +79,7 @@ body{
 }
 @media(max-width:640px){
     .in-progress-container .in-progress-content{
-        background-image: url("https://d2ofqe7l47306o.cloudfront.net/games/1280x1024/sly-cooper-thieves-in-time-02.jpg");
+        background-image: url("https://th.bing.com/th/id/R.9c5d016431b67ef28843bf0f1c40594c?rik=EMKLty9UTV%2f7dQ&riu=http%3a%2f%2ffc05.deviantart.net%2ffs71%2ff%2f2013%2f303%2f1%2f7%2fthievius_racoonus__a_sly_cooper_still_life_by_ladyz0e-d6sfieq.jpg&ehk=VOKSQpkLr%2fngdNjcSNlK%2bzpyOuX6CodvQyv85RRx4p4%3d&risl=&pid=ImgRaw&r=0");
         display: block;
         background-position: center;
         background-repeat: no-repeat;
@@ -502,6 +502,9 @@ body{
     margin-bottom: 20px;
     
 }
+.review-template-information-container{
+    background-color: #4c5c82;
+}
 .review-template-header{
     display: flex;
     flex-direction: column;
@@ -552,6 +555,7 @@ body{
     width: auto;
 }
 .review-score{
+    margin-top: 20px;
     text-align: center;
 }
 .review-score img{
