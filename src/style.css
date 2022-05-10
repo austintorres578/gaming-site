@@ -81,25 +81,34 @@ body{
     .in-progress-container .in-progress-content{
         background-image: url("https://d2ofqe7l47306o.cloudfront.net/games/1280x1024/sly-cooper-thieves-in-time-02.jpg");
         display: block;
-        padding-right: 20px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
+        height: auto;
+        
     }
-@media(max-width:400px){
+    .in-progress-container .in-progress-content .in-progress-text h2{
+        margin-top: 20px;
+    }
     .in-progress-container .in-progress-content .in-progress-text{
-        padding-left: 10px;
-        padding-right: 10px;
-
+        font-size: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 15px;
     }
-}
     .in-progress-container .in-progress-header{
         text-align: center;
     }
     .in-progress-container .in-progress-content .in-progress-text h2{
-        color: orange;
+        padding-left: 20px;
         padding-bottom: 20px;
+        padding-right: 20px;
+    }
+    .in-progress-container .in-progress-content .in-progress-text p{
+        margin-left: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .in-progress-container .in-progress-content .in-progress-text{
         width: 100%;
@@ -126,6 +135,7 @@ body{
     color: white;
     height: 100%;
     padding-left: 20px;
+    padding-right: 20px;
     font-size: 20px;
 }
 .in-progress-text h2{
@@ -202,6 +212,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     padding: 20px 0px 20px 0px;
+    align-items: center;
 }
 .yearly-reviews-image img{
     height: auto;
@@ -401,9 +412,10 @@ body{
     cursor: pointer;
     margin: 0px;
     font-size: 20px;
+    text-align: left;
 }
 .temporary-reviews-list li button a{
-    color: orange;
+    color: white;
     text-decoration: underline orange;
 }
 .review-list-console-logo{
@@ -510,8 +522,7 @@ body{
 .review-template-information{
     padding-left: 20px;
 }
-.review-template-information h1{
-    text-decoration: underline orange;
+.review-template-information h2{
     margin-left: 10px;
     color: white;
 }

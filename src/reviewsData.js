@@ -54,31 +54,4 @@ export default [
         },
         conclusion:"This game has its problems when it comes to its AI that creates problems in the gameplay of this game. The environments are actually very detailed but can be really samey with similar and linear locations, but the game is still without a doubt above average with its amazing stealth when it's working. I really don't know how this game got near perfect scores in the past, but I'm happy it did because later entries in the series definitely refined this game's mechanics. Overall it's still a solid game but you need to be aware that you're gonna be facing a really dated save system and enemies that have the heightened senses of a hawk.",
     }
-    // {
-    //     id:1,
-    //     game:"Sly: Thieves in Time",
-    //     platform:"PS Vita",
-    //     release:"Feb 05, 2013",
-    //     developer:"Sanzaru Games",
-    //     publisher:"Sony Interactive Entertainment",
-    //     genre:"Platformer",
-    //     description:"Play as the reformed Cooper gang and go back in time to multiple different time periods in order to stop whoever is erasing Cooper history.",
-    //     boxArt:"https://images.pushsquare.com/fcce92c2328e8/sly-cooper-thieves-in-time-cover.cover_large.jpg",
-    //     backgroundImage:"https://d2ofqe7l47306o.cloudfront.net/games/1280x1024/sly-cooper-thieves-in-time-02.jpg",
-    //     score:"0",
-    //     presentation:{
-    //         "subtitle 1":"text",
-    //         "subtitle 2":"text",
-    //     },
-    //     story:{
-    //         "subtitle 1":"text",
-    //         "subtitle 2":"text",
-    //     },
-    //     gameplay:{
-    //         "subtitle 1":"text",
-    //         "subtitle 2":"text",
-    //     },
-    //     conclusion:"text",
-    //     }
-    
 ];

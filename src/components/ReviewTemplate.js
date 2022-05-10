@@ -18,7 +18,7 @@ export default function ReviewTemplate(props){
             <div className="review-template">
                 <div style={divStyle} id="review-template-information-container" className="review-template-information-container">
                     <div className="review-template-information">
-                        <h1>{props.game}</h1>
+                        <h2>{props.game}</h2>
                         <p><strong>Platform:</strong> {props.platform}</p>
                         <p><strong>Release:</strong> {props.release}</p>
                         <p><strong>Developer:</strong> {props.developer}</p>
