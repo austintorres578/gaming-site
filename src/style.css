@@ -211,7 +211,7 @@ body{
 .yearly-reviews-image{
     display: flex;
     justify-content: space-evenly;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 5px;
     align-items: center;
 }
 .yearly-reviews-image img{
@@ -504,6 +504,7 @@ body{
 }
 .review-template-information-container{
     background-color: #4c5c82;
+    margin-bottom: 20px;
 }
 .review-template-header{
     display: flex;
@@ -525,7 +526,7 @@ body{
 .review-template-information{
     padding-left: 20px;
 }
-.review-template-information h2{
+.review-template-information h1{
     margin-left: 10px;
     color: white;
 }
@@ -555,7 +556,6 @@ body{
     width: auto;
 }
 .review-score{
-    margin-top: 20px;
     text-align: center;
 }
 .review-score img{
